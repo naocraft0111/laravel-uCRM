@@ -116,7 +116,9 @@ const deleteItem = id => {
                                             <div class="relative">
                                                 <label for=""
                                                     class="leading-7 text-sm  mr-4  text-gray-600">性別</label>
-                                                <div id="gender" class="w-full bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+                                                <div id="gender" class="w-full bg-opacity-50 rounded border border-gray-300
+                                                bg-gray-100
+                                                outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
                                                     <span v-if="customer.gender === 0">男性</span>
                                                     <span v-if="customer.gender === 1">女性</span>
                                                     <span v-if="customer.gender === 2">その他</span>
